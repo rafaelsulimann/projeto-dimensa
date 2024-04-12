@@ -1,0 +1,13 @@
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Rafael', 'rafael@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Diogo', 'diogo@gmail.com', '123456', 'USER');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Allan', 'allan@gmail.com', '123456', 'USER');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Clebao', 'clebao@gmail.com', '123456', 'USER');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Margerya', 'margerya@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Aline', 'aline@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Marcos', 'marcos@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('junior1', 'junior1@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Junior2', 'junior2@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Junior3', 'junior3@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Junior4', 'junior4@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Junior5', 'junior5@gmail.com', '123456', 'ADMIN');
+INSERT INTO tb_usuarios(nome, email, senha, tipo_usuario) VALUES ('Junior6', 'junior6@gmail.com', '123456', 'ADMIN');
