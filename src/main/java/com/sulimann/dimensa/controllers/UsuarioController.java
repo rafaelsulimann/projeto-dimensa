@@ -45,7 +45,7 @@ public class UsuarioController {
   }
 
   @GetMapping(value = "/{id}")
-  public ResponseEntity<UsuarioTesteResponse> retornarEmail(@PathVariable Long id){
+  public ResponseEntity<UsuarioTesteResponse> retornarEmail(@PathVariable("id") Long id){
     return ResponseEntity.status(HttpStatus.OK).body(this.service.teste(id));
   }
 }

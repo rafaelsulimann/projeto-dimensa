@@ -16,6 +16,6 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Long>, JpaSpec
   Optional<Usuario> findByNome(String nome);
 
   @Query(value = "SELECT new com.sulimann.dimensa.dtos.UsuarioTesteResponse(obj.email) FROM Usuario obj WHERE obj.id=:id")
-  Optional<UsuarioTesteResponse> retornarEmail(@Param("id") Long id);
+  Optional<UsuarioTesteResponse> retornarEmail(@Param(value = "id") Long id);
 
 }
